@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tim-dream.github.io/categories/</loc>
+    <loc>https://tim-dream.github.io/myblog/categories/</loc>
   </url><url>
-    <loc>https://tim-dream.github.io/</loc>
+    <loc>https://tim-dream.github.io/myblog/</loc>
   </url><url>
-    <loc>https://tim-dream.github.io/tags/</loc>
+    <loc>https://tim-dream.github.io/myblog/tags/</loc>
   </url>
 </urlset>
