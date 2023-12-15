@@ -1,4 +1,4 @@
 baseURL = 'https://tim-dream.github.io/myblog'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-cn'
+title = '代码收集库'
 theme = 'dark-theme-editor-main'
