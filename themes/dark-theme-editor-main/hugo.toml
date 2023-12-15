@@ -62,10 +62,10 @@
     # Customized info shown in header of the page
     [params.header]
         # Website title for header banner.
-        title = "My New Hugo Site"
+        title = "代码仓库"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "A Site Built by Hugo"
+        subtitle = "代码仓库"
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]

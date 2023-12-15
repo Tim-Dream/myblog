@@ -113,7 +113,7 @@ This will install the theme repository as a submodule in the `themes/dark-theme-
         # Customized info shown in header of the page        # Customized info shown in header of the page
         [params.header]
             # Website title for header banner.
-            title = "My New Hugo Site"
+            title = "代码仓库"
 
             # Subtitle for this site, used in homepage only
             subtitle = "A Site Built by Hugo"
@@ -276,7 +276,7 @@ This will install the theme repository as a submodule in the `themes/dark-theme-
                 
                 [languages.en.params.header]
                     # Website title for header banner.
-                    title = "My New Hugo Site"
+                    title = "代码仓库"
 
                     # Subtitle for this site, used in homepage only
                     subtitle = 'A Site Built by Hugo'
