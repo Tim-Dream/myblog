@@ -8,7 +8,7 @@
     autor = "author"
     tag = "tags"
     category = "categories"
-    
+
 # Theme parameters
 [params]
 
@@ -29,7 +29,7 @@
         # These URLs will be inserted into <link> tags directly without any check.
         externalCss = []
 
-        # Like the one above, but this will download a local copy and combine it with 
+        # Like the one above, but this will download a local copy and combine it with
         # other CSS files into a single file while in production mode.
         externalCssDownload = []
 
@@ -45,7 +45,7 @@
         # These URLs will be inserted into <script> tags directly without any check.
         externalJs = []
 
-        # Like the one above, but this will download a local copy and combine it with 
+        # Like the one above, but this will download a local copy and combine it with
         # other JS files into a single file while in production mode.
         externalJsDownload = []
 
@@ -127,12 +127,12 @@
     # These value would be used when they didn't appear in the frontmatter of a single page.
     # In other words, these value will be overwritten by the frontmatter in the single page.
     [params.globalFrontmatter]
-        # The author of this site. This will be shown in 
+        # The author of this site. This will be shown in
         # 1. the footer of all page
         # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
         # Keep it an empty string or remove this item will hide it from the page
-        author = "Jing Wang"
-        
+        author = "Tim Dream"
+
         # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
         description = "This is my new hugo site"
 
@@ -141,10 +141,10 @@
 
     # Parameters applied in the homepage only
     [params.homePage]
-        # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
+        # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.
         siteLongDescription = "Hugo is a fast and easy-to-use static website generator written in Go. It renders a complete HTML website from content and templates in a directory, utilizing Markdown files for metadata. It's optimized for speed and suitable for various website types."
 
-        # If you don't like the title of "siteLongDescription" be "Start" (default), 
+        # If you don't like the title of "siteLongDescription" be "Start" (default),
         # you may change the value of this item to "Description" or something you like.
         siteLongDescriptionTitle = "Start"
 
@@ -155,11 +155,11 @@
         numOfRecentPosts = 5
 
         # Parameter to decide whether to show the URL behind the title.
-        # It will be more like an editor if it is shown. However, in general, it can be messy if it is displayed.        
+        # It will be more like an editor if it is shown. However, in general, it can be messy if it is displayed.
         # (Default: true)
         recentPostShowUrl = true
-    
-    
+
+
     # Paramater applied in the single page
     # These values could be overwritten by the frontmatter in the single page.
     [params.page]
@@ -167,9 +167,9 @@
         includeToc = true
 
         # Should show the author of the page or not.
-        # The author name will be shown in the single page if and only if 
+        # The author name will be shown in the single page if and only if
         #   1. this items been set as true and
-        #   2. "aurthor" filed been provided in the 
+        #   2. "aurthor" filed been provided in the
         #       A. single page frontmatter or
         #       B. "author" filed in above "globalFrontmatter" block
         showAuthor = true
@@ -193,7 +193,7 @@
 
         # Should include LaTeX support on a single page or not?
         # This parameter will be overwritten by the page front matter (if it has been set).
-        # Since enabling this configuration loads some external JavaScript, 
-        #   it will slow down the page loading speed. 
+        # Since enabling this configuration loads some external JavaScript,
+        #   it will slow down the page loading speed.
         # It's recommended to keep it turned off by default and only enable this configuration when required.
         useMath = false
