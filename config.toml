@@ -1,0 +1,4 @@
+baseURL = 'https://tim-dream.github.io/myblog'
+languageCode = 'zh-cn'
+title = '代码收集库'
+theme = 'dark-theme-editor-main'
